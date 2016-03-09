@@ -56,7 +56,7 @@ void pajek_graph(char *file_name, char *directed_or_undirected, int node_number,
 //渡された隣接行列を元にgephiファイルを生成する関数gephi_graphの使い方 -> gephi_graph(文字列(ファイル名)を指すポインタ．文字列(directもしくはundirected)，総ノード数，隣接行列の配列へのポインタ)
 void gephi_graph(char *file_name, char *directed_or_undirected, int node_number, double adjancency_matrix[node_number][node_number]);
 
-//渡された隣接行列を元にgephiファイルを生成する関数gephi_graphの使い方 -> sociarium_graph(文字列(ファイル名)を指すポインタ．文字列(directもしくはundirected)，総ノード数，隣接行列の配列へのポインタ)
+//渡された隣接行列を元にsociariumファイルを生成する関数gephi_graphの使い方 -> sociarium_graph(文字列(ファイル名)を指すポインタ．文字列(directもしくはundirected)，総ノード数，隣接行列の配列へのポインタ)
 void sociarium_graph(char *file_name, char *directed_or_undirected, int node_number, double adjancency_matrix[node_number][node_number]);
 
 //渡された隣接行列を元に次数分散を計算する関数degree_varianceの使い方 -> degree_variance(総ノード数，隣接行列の配列へのポインタ)
